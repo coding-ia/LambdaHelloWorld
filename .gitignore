@@ -1,0 +1,4 @@
+LambdaHelloWorld/obj/*
+LambdaHelloWorld/bin/*
+LambdaHelloWorld/aws-lambda-tools-defaults.json
+.vs/*
