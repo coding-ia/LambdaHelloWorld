@@ -22,4 +22,6 @@ jobs:
         DOTNET_CLI_TELEMETRY_OPTOUT: 1
 
     - name: Test sudo
-      run: sudo apt install nano
+      run: |
+        sudo apt update
+        sudo apt install nano -y
