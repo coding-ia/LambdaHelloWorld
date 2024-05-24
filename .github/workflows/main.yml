@@ -17,6 +17,9 @@ jobs:
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 6.0.101
+      env:
+        DOTNET_INSTALL_DIR: "/home/runner/.dotnet"
+        DOTNET_CLI_TELEMETRY_OPTOUT: 1
 
     - name: Test sudo
       run: sudo apt install nano
